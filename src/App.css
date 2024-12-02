@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+.product-page{
+  display: flex;
+}
+
+.product-page .product-image img{
+  height: 500px;
+  width:500px;
+}
+
+.product-page .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+ul{
+    text-align: justify;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
